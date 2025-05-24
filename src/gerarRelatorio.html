@@ -1,0 +1,11 @@
+public static void main(String[] args) {
+    Map<Integer, Aluno> alunos = new HashMap<>();
+    alunos.put(1, new Aluno(1, "Ana", 8.5));
+    alunos.put(2, new Aluno(2, "Carlos", 7.3));
+    alunos.put(3, new Aluno(3, "João", 9.1));
+
+    Sistema sistema = new Sistema(alunos);
+    sistema.gerarRelatorioHTMLComEstilo("relatorios/relatorio.html", "relatorios/estilo.css");
+
+    System.out.println("Relatório gerado com sucesso!");
+}
